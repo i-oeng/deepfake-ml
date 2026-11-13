@@ -1,0 +1,23 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.tmp/
+
+# Notebook downloads (about 3 GB); the notebook recreates them
+notebooks/data_notebook/
+
+# Editors, operating systems and local tool settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.claude/
+.codex-tmp/
+
+# Local secrets
+.env
+kaggle.json
